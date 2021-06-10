@@ -144,7 +144,7 @@ class ContactUs extends Component {
                     everyday, 09:00 AM - 06:00 PM</strong>
                   <div class="contact__number d-flex align-items-center">
                     <i class="icon-phone"></i>
-                    <a style={{fontSize:'18px'}} href="tel:++92 321 8581212">++92 321 8581212 <br/> ++92 321 8581414</a> 
+                    <a style={{fontSize:'18px'}} href="tel:++92 321 8581212">+92 321 8581212 <br/> +92 321 8581414</a> 
                     {/* <a href="tel:++92 321 8581414">++92 321 8581414</a> */}
                   </div>
                 </div>{/*-- /.contact__panel-info-bottom -*/}
