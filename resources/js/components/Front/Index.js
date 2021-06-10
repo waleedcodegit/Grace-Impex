@@ -70,7 +70,7 @@ class Index extends Component {
                   </li>
                   <li>
                     <i class="icon-envelope"></i><span>Email:</span>
-                    <a href="mailto:inquiry@grace-impex.com"> inquiry@grace-impex.com</a>
+                    <a href="mailto:enquiry@grace-impex.com"> enquiry@grace-impex.com</a>
                   </li>
                 </ul>
               </div>

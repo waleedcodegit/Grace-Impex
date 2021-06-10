@@ -15,11 +15,9 @@ class Slider extends Component {
             // showIndicators={true}
             >
             <div>
-                <img src="/images/S1.png" />
+                <img src="/images/s1.jpg" />
             </div>
-            <div>
-                <img src="/images/S2.png" />
-            </div>
+           
             <div
             >
                 <img src="/images/S3.png" />

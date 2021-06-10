@@ -129,13 +129,13 @@ class ContactUs extends Component {
                   <div class="contact-info-box">
                     <h4 class="contact__info-box-title">Our Location</h4>
                     <ul class="contact__info-list list-unstyled">
-                      <li>Plot no. 123/1-A, Quaid-E-Azam Industrial Area,Township Lahore, Pakistan 54770</li>
+                      <li>123/1-A, Quaid-e-Azam Industrial Estate Quaid e Azam Industrial Estate, Lahore, Punjab 54770</li>
                     </ul>{/*-- /.contact__info-list -*/}
                   </div>{/*-- /.contact-info-box -*/}
                   <div class="contact-info-box">
                     <h4 class="contact__info-box-title">Quick Contact</h4>
                     <ul class="contact__info-list list-unstyled">
-                      <li>Email: <a href="mailto:inquiry@grace-impex.com"> inquiry@grace-impex.com</a></li>
+                      <li>Email: <a href="mailto:enquiry@grace-impex.com"> enquiry@grace-impex.com</a></li>
                     </ul>{/*-- /.contact__info-list -*/}
                   </div>{/*-- /.contact-info-box -*/}
                 </div>{/*-- /.contact__panel-info-top -*/}
