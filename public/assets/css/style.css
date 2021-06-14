@@ -4441,7 +4441,7 @@ textarea.form-control {
 }
 
 .slider .slide-item {
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .slider .slide__subtitle {

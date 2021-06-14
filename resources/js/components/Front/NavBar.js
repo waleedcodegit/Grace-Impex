@@ -26,10 +26,11 @@ class NavBar extends Component {
               <li class="nav__item with-dropdown">
                 <a href="Clients" class="dropdown-toggle nav__item-link">Clients</a></li>{/* -- /.nav-item -*/}
               <li class="nav__item with-dropdown">
-                <a href="/blogs" class="dropdown-toggle nav__item-link">News &amp; Media</a></li>{/* -- /.nav-item -*/}
-              <li class="nav__item">
+                <a href="/blogs" class="dropdown-toggle nav__item-link">E-Catalogue</a></li>{/* -- /.nav-item -*/}
+              {/* <li class="nav__item">
                 <a href="/enquiry" class="nav__item-link">Enquiry</a>
-              </li>{/* -- /.nav-item -*/}
+              </li> */}
+              {/* -- /.nav-item -*/}
               <li class="nav__item">
                 <a href="/Contactus" class="nav__item-link">Contact</a>
               </li>{/* -- /.nav-item -*/}

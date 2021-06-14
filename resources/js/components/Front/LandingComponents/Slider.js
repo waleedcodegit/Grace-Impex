@@ -32,15 +32,23 @@ export default class Slider extends Component {
           </div>
         </div> */}
         <div class="slide-item align-v-h bg-overlay bg-overlay-2">
-          <div class="bg-img"><img src="/images/s1.jpg" alt="slide img"/></div>
+        <img src="/images/s1.jpg" alt="slide img"/>
         
         </div>
         <div class="slide-item align-v-h bg-overlay bg-overlay-2">
-          <div class="bg-img"><img src="/images/s2.jpg" alt="slide img"/></div>
+         <img src="/images/s2.jpg" alt="slide img"/>
         
         </div>
         <div class="slide-item align-v-h bg-overlay bg-overlay-2">
-          <div class="bg-img"><img src="/images/s3.jpg" alt="slide img"/></div>
+        <img src="/images/s3.jpg" alt="slide img"/>
+        
+        </div>
+        <div class="slide-item align-v-h bg-overlay bg-overlay-2">
+        <img src="/images/s4.jpg" alt="slide img"/>
+        
+        </div>
+        <div class="slide-item align-v-h bg-overlay bg-overlay-2">
+        <img src="/images/s5.jpg" alt="slide img"/>
         
         </div>
       </div>

@@ -129,7 +129,7 @@ class ContactUs extends Component {
                   <div class="contact-info-box">
                     <h4 class="contact__info-box-title">Our Location</h4>
                     <ul class="contact__info-list list-unstyled">
-                      <li>123/1-A, Quaid-e-Azam Industrial Estate Quaid e Azam Industrial Estate, Lahore, Punjab 54770</li>
+                      <li>123/1-A, Main Quaid-e-Azam Industrial Estate Quaid e Azam Industrial Estate, Lahore, Punjab 54770</li>
                     </ul>{/*-- /.contact__info-list -*/}
                   </div>{/*-- /.contact-info-box -*/}
                   <div class="contact-info-box">
@@ -144,7 +144,7 @@ class ContactUs extends Component {
                     everyday, 09:00 AM - 06:00 PM</strong>
                   <div class="contact__number d-flex align-items-center">
                     <i class="icon-phone"></i>
-                    <a style={{fontSize:'18px'}} href="tel:++92 321 8581212">+92 321 8581212 <br/> +92 321 8581414</a> 
+                    <a style={{fontSize:'16px',fontWeight:500,lineHeight:1.5}} href="tel:++92 321 8581212">+92 321 8581212 <br/> +92 321 8581414</a> 
                     {/* <a href="tel:++92 321 8581414">++92 321 8581414</a> */}
                   </div>
                 </div>{/*-- /.contact__panel-info-bottom -*/}

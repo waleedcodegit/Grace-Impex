@@ -50,9 +50,9 @@ class Index extends Component {
           <div class="row">
             <div class="col-sm-12 col-md-5 col-lg-3">
               <ul class="header__topbar-links d-flex flex-wrap list-unstyled mb-0">
-                <li><a href="#">New & Media</a></li>
-                <li><a href="contacs.html">Contacts</a></li>
-                <li><a href="careers.html">Careers</a></li>
+                {/* <li><a href="#">New & Media</a></li> */}
+                <li><a href="/Contactus">Contact Us</a></li>
+                {/* <li><a href="careers.html">Careers</a></li> */}
               </ul>
             </div>{ /* /.col-lg-5 */}
             <div class="col-sm-12 col-md-7 col-lg-9 header__topbar-right">
@@ -98,9 +98,11 @@ class Index extends Component {
               <li class="nav__item with-dropdown">
                 <a href="Clients" class="dropdown-toggle nav__item-link">Clients</a></li>{ /* /.nav-item */}
               <li class="nav__item with-dropdown">
-                <a href="/blogs" class="dropdown-toggle nav__item-link">News &amp; Media</a></li>{ /* /.nav-item */}
-              <li class="nav__item">
-                <a href="/enquiry" class="nav__item-link">Enquiry</a>              </li>{ /* /.nav-item */}
+                <a href="/blogs" class="dropdown-toggle nav__item-link">E-Catalogue</a></li>{ /* /.nav-item */}
+              {/* <li class="nav__item">
+                <a href="/enquiry" class="nav__item-link">Enquiry</a>              </li> */}
+                
+                { /* /.nav-item */}
               <li class="nav__item">
                 <a href="/Contactus" class="nav__item-link">Contact</a>              </li>{ /* /.nav-item */}
             </ul>{ /* /.navbar-nav */}
