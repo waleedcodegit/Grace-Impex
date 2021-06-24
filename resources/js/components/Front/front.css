@@ -20,7 +20,10 @@
 	box-shadow: 2px 2px 3px #999;
   z-index:100;
 }
+.carousel .slider{
 
+  /* transform: translate3d(0%, 0px, 0px) !important; */
+}
 .my-float{
 	margin-top:16px;
 }

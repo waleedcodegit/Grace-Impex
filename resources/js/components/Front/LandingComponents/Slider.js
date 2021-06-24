@@ -5,7 +5,7 @@ export default class Slider extends Component {
     return (
          <section class="slider slider-layout2">
       <div class="slick-carousel carousel-arrows-light m-slides-0"
-        data-slick='{"slidesToShow": 1, "arrows": true, "dots": true, "speed": 700,"fade": true,"cssEase": "linear"}'>
+        data-slick='{"slidesToShow": 1, "arrows": true, "dots": true, "speed": 300,"fade": true,"cssEase": "linear"}'>
         {/* <div class="slide-item align-v-h bg-overlay bg-overlay-2">
           <div class="bg-img"><img src="assets/images/sliders/1.jpg" alt="slide img"/></div>
           <div class="container">
@@ -31,7 +31,7 @@ export default class Slider extends Component {
             </div>
           </div>
         </div> */}
-        <div class="slide-item align-v-h bg-overlay bg-overlay-2">
+        <div class="slide-item align-v-h ">
         <img src="/images/s1.jpg" alt="slide img"/>
         
         </div>

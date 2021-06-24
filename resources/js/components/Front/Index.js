@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
 import Navbar from './NavBar'
-// import Slider from './Slider'
+import Slider from './Slider'
 import './front.css'
 import About from './LandingComponents/About'
 import BannerLayout from './LandingComponents/BannerLayout'
 import FeatureProducts from './LandingComponents/FeatureProducts'
-import Slider from './LandingComponents/Slider'
+// import Slider from './LandingComponents/Slider'
 import Contactlayout from './LandingComponents/Contactlayout'
 
 import Features from './LandingComponents/Features'
