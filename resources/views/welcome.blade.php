@@ -16,7 +16,7 @@
         {{-- <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet"> --}}
 
         <!-- Styles -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
         {{-- <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> --}}
         <link rel="stylesheet"type="text/css" href="{{asset('css/app.css')}}">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"/>
@@ -35,9 +35,8 @@
         {{-- <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
         <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script> --}}
         <script src="{{asset('js/popper.min.js')}}" ></script>
-        {{-- <script src="{{asset('js/jquery-3.4.1.slim.min.js')}}" ></script> --}}
         <script src="{{asset('js/bootstrap.min.js')}}" ></script>
-        {{-- <script src="{{asset('js/jquery-3.5.1.min.js')}}" ></script> --}}
+        <script src="{{asset('js/jquery-3.5.1.min.js')}}" ></script>
         <script src="{{asset('js/plugins.js')}}" ></script>
         <script src="{{asset('js/main.js')}}" ></script>
         {{-- <script src="assets/js/jquery-3.5.1.min.js"></script>

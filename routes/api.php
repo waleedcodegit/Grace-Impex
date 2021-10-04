@@ -37,7 +37,7 @@ Route::post('/update_product', 'Admin\productscontroller@update_product');
 Route::post('/deleteproduct', 'Admin\productscontroller@deleteproduct');
 Route::post('/get_cats_with_subs', 'Admin\productscontroller@get_cats_with_subs');
 Route::post('/get_featuerd_products', 'Admin\productscontroller@get_featuerd_products');
-Route::post('/get_products_by_sub_cat', 'Admin\productscontroller@get_products_by_sub_cat');
+Route::post('/get_products_by_cat', 'Admin\productscontroller@get_products_by_cat');
 Route::post('/get_all_enabled_products', 'Admin\productscontroller@get_all_enabled_products');
 Route::post('/get_product_enabled_by_id', 'Admin\productscontroller@get_product_enabled_by_id');
 Route::post('/get_category_by_sub_cat_id', 'Admin\productscontroller@get_category_by_sub_cat_id');

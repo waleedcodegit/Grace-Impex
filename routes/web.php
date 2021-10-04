@@ -15,8 +15,10 @@ Route::get('{reactRoutes}', function () {
     return view('welcome');
 });
 
-Route::view('/Products/{id}', 'welcome');
+// Route::view('/Products/{id}', 'welcome');
 Route::view('/Product/{id}', 'welcome');
+Route::view('/products/{slug}', 'welcome');
+
 
 Route::view('/adminpanel', 'welcome');
 Route::view('/adminpanel/Dashboard', 'welcome');

@@ -19,6 +19,9 @@ import Enquiry from './Front/Pages/Enquiry'
 import Contactus from './Front/Pages/ContactUs'
 import Products from './Front/Pages/Products'
 import Clients from './Front/Pages/Clients'
+import PetBottels from './Front/LandingComponents/PetBottels';
+import PlasticCaps from './Front/LandingComponents/PlasticCaps';
+import ProductsPage from './Front/Products/ProductsPage';
 function App(props) {
   return (
     <BrowserRouter  >
@@ -26,7 +29,7 @@ function App(props) {
         <Switch>
           <Route  path="/adminpanel"  component={AdminSidebar}/>  
           <Route  exact path="/"  component={Index}/>
-          <Route   path="/products"  component={Products}/>
+          <Route  exact path="/products"  component={Products}/>
           <Route   path="/Product/:id"  component={Product}/>
           <Route  exact path="/Aboutus"  component={AboutUs}/>
           <Route  exact path="/process"  component={Process}/>
@@ -42,6 +45,10 @@ function App(props) {
           <Route  exact path="/Checkout"  component={Checkout}/>
           <Route  exact path="/AdminLogin"  component={AdminLogin}/>
           <Route  exact path="/Clients"  component={Clients}/>
+          <Route  exact path="/pet-bottels"  component={PetBottels}/>
+          <Route  exact path="/plastic-caps"  component={PlasticCaps}/>
+          <Route  exact path="/products/:slug"  component={ProductsPage}/>
+
         </Switch> 
       </div>
     </BrowserRouter>

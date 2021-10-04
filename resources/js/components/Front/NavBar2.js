@@ -1,51 +1,9 @@
 import React, { Component } from 'react';
-import Navbar from './NavBar'
-import Slider from './Slider'
-import './front.css'
-import About from './LandingComponents/About'
-import BannerLayout from './LandingComponents/BannerLayout'
-import FeatureProducts from './LandingComponents/FeatureProducts'
-// import Slider from './LandingComponents/Slider'
-import Contactlayout from './LandingComponents/Contactlayout'
 
-import Features from './LandingComponents/Features'
-import Footer from './LandingComponents/Footer'
-import $ from 'jquery';
-import Categories from './LandingComponents/Categories';
-
-class Index extends Component {
-    // componentDidMount(){
-    //     $(document).ready(function(){
-    //       $(window).scroll(function (){
-    //         if($(window).scrollTop()>50){
-    //           $('nav').addClass('index_nav_var');
-    //         }else{
-    //           $('nav').removeClass('index_nav_var');
-        
-    //         }
-    //       })
-    //     })
-    //     $('body').on('mouseenter mouseleave','.dropdown',function(e){
-    //       var _d=$(e.target).closest('.dropdown');
-    //       if (e.type === 'mouseenter')_d.addClass('show');
-    //       setTimeout(function(){
-    //         _d.toggleClass('show', _d.is(':hover'));
-    //         $('[data-toggle="dropdown"]', _d).attr('aria-expanded',_d.is(':hover'));
-    //       },300);
-    //     });
-    //   }
-    render() {
-        return (
-          <div>
-  <div class="wrapper">
-    <div class="preloader">
-      <div class="loading"><span></span><span></span><span></span><span></span></div>
-    </div>{ /* /.preloader */}
-   
-    { /* =========================
-        Header
-    =========================== */}
-    <header class="header header-light header-layout2">
+class NavBar extends Component {
+  render() {
+    return (
+      <header class="header header-light header-layout2">
       <div class="header__topbar d-none d-xl-block">
         <div class="container">
           <div class="row">
@@ -115,61 +73,9 @@ class Index extends Component {
         </div>
         { /* /.container */}
       </nav>{ /* /.navabr */}
-    </header>{ /* /.Header */}
-
-    { /* ============================
-        Slider
-    ============================== */}
-
-    <Slider/>
-   
-    { /* /.slider */}
-
-    { /* ========================
-      About Layout 2
-    =========================== */}
-    { /* /.About Layout 2 */}
-
-    <Categories/>
-    <About/>
-
-    { /* =========================== 
-      Features layout 1
-    ============================= */}
-    { /* /.Features layout 1 */}
-
-    <Features/>
-    { /* =========================
-       Banner layout 3
-      =========================== */}
-   { /* /.Banner layout 3 */}
-
-    <BannerLayout/>
-    { /* ==========================
-        contact layout 3
-    =========================== */}
-    { /* /.contact layout 3 */}
-
-    <Contactlayout/>
-
-    { /* ========================
-      Footer
-    ========================== */}
-    { /* /.Footer */}
-
-   <Footer/>
-  <button id="scrollTopBtn"><i class="fa fa-long-arrow-up"></i></button>
- <div class="search-popup">
-      <i class="search__popup-close">&times;</i>
-      <form class="search__popup-form">
-        <input type="text" class="search__input" placeholder="Type Words Then Enter"/>
-        <button class="module__search-btn"><i class="fa fa-search"></i></button>
-      </form>
-    </div>
-  </div>
-  </div>
-        );
-    }
+    </header>
+    );
+  }
 }
 
-export default Index;
+export default NavBar;

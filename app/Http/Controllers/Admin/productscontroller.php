@@ -110,11 +110,19 @@ class productscontroller extends Controller
         }
         return $products;
     }
-    public function get_products_by_sub_cat(Request $request){
+    public function get_products_by_cat(Request $request){
+        $category = Category::where('slug',$request->slug)->first();
+        $products = [];
+        if($category){
+            $products = Product::where('cat_id' ,$category->id)->where('enabled',1)->with('image')->get();
+        }
+        $response = ['status' => 200 , 'products' => $products , 'category' => $category];
+        return $response;
+    }
+    public function get_products_by_cat_(Request $request){
         $products = DB::table('products')
         ->where('enabled','1')
-        ->where('retail', '1')
-        ->where('sub_cat_id',$request->id)
+        ->where('slug',$request->id)
         ->get();
         foreach($products as $p){
         $images = DB::table('product_images')->where('product_id',$p->id)->get();
