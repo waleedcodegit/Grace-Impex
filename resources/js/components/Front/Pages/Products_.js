@@ -7,7 +7,6 @@ import Modal from 'react-bootstrap/Modal'
 // import Pagination from "react-js-pagination";
 // require("bootstrap/less/bootstrap.less");
 import Pagination from '@material-ui/lab/Pagination';
-import Categories from '../LandingComponents/Categories';
 
 class Products extends Component {
     constructor(props) {
@@ -104,9 +103,71 @@ class Products extends Component {
     {/*-- =========================== 
       portfolio Grid 
     ============================= */}
-    
-    <Categories />
-    <Footer />
+    <section class="portfolio-grid">
+     <div className="container">
+     <div class=" row">
+     <div className="col-md-4">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            {/* <ul class="portfolio-filter d-flex flex-wrap justify-content-center list-unstyled">
+              <li><a class="filter " href="#" data-filter="all">ALL Works</a></li>
+              <li><a class="filter" href="#" data-filter=".filter-construction">Construction</a></li>
+              <li><a class="filter" href="#" data-filter=".filter-architecture">Architecture</a></li>
+              <li><a class="filter" href="#" data-filter=".filter-building">Building</a></li>
+              <li><a class="filter active" href="#" data-filter=".filter-renovations">Renovations</a></li>
+              <li><a class="filter" href="#" data-filter=".filter-interior">Interior</a></li>
+            </ul>-- /.portfolio-filter  */}
+          </div>{/*-- /.col-lg-12 */}
+        </div>{/*-- /.row */}
+        {
+            this.state.loading ? 
+            <div class="preloader">
+            <div class="loading"><span></span><span></span><span></span><span></span></div>
+            </div>:
+             <div  class="row">
+          {/*-- portfolio item #1 */}
+         {
+            this.state.products.map((data,index)=>{
+              return(
+            <div onClick={this.change_image.bind(this,data.images[0].image)} key={index} class="col-sm-6 col-md-6 col-lg-3 ">
+            
+            <div class="portfolio-item">
+              <div class="portfolio__img">
+                <img src={img_baseurl+data.images[0].image} alt="portfolio img"/>
+              </div>{/*-- /.portfolio-img */}
+              <div class="portfolio__content">
+                <h4 class="portfolio__title text-center">{data.code}<a href="#"></a></h4>
+                {/* <h4 class="portfolio__title"><a href="#">The Fallingwater House</a></h4> */}
+                <div class="portfolio__cat">
+                  {/* <a href="#">Building</a><a href="#">Interior</a> */}
+                </div>{/*-- /.portfolio-cat */}
+              </div>{/*-- /.portfolio-content */}
+            </div>{/*-- /.portfolio-item */}
+          </div>
+                        )
+            })
+        }
+        </div>
+        }
+       
+         
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+           <Pagination onChange={this.handlePageChange.bind(this)} count={this.state.last_page} shape="rounded" />
+          </div>{/*-- /.col-lg-12 */}
+        </div>{/*-- /.row */}
+      </div>{/*-- /.container */}
+        <div className="col-md-8 px-3 portfolio-item">
+          <div className="product_img portfolio__img">
+              <img src={img_baseurl+this.state.image}></img>
+          </div>
+        </div>
+     </div>
+ 
+     </div>
+           </section>{/*-- /.portfolio Grid */}
+    <button id="scrollTopBtn"><i class="fa fa-long-arrow-up"></i></button>
+<       Footer/>
  {
             this.state.modal ?
           <Modal
