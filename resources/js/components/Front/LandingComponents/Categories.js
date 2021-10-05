@@ -4,62 +4,43 @@ class Categories extends Component {
     render() {
         return (
           <section className="about-layout2">
-        <div className="container col-padding-0">
+        <div className="container-fluid col-padding-0">
         <h2 class="heading__title text-center mb-3">Our Range Of Products</h2>
 
-            <div className="row">
-            <div className="col-sm-12 col-md-3 col-lg-3">
+            <div className="row mt-5">
+            <div className="col-sm-12 col-md-3 col-lg-3 mt-3 px-3">
             <a href="/pet-bottels">
-                <div className="featured-block fblock-style1">
-                <div className="featured-block-image">
-                    <img className src="/images/pet-bottles.jpg" />
-                    <div className="featured-block-overlay">
-                    <div className="featured-block-overlay-bg secondary-bg" />
-                    <h3 className="featured-block-title " style={{fontSize: '2rem'}}>Pet Bottle</h3>
-                    </div>
-                </div>
+                <div className="card card-1">
+                <img style={{width:'100%'}} src="/images/pet-bottles.jpg" />
+                <h1 className="text-center mt-3 mb-3" style={{fontSize:'22px'}}>PET Bottles</h1>
                 </div>
                 </a>
             </div>
-            <div className="col-sm-12 col-md-3 col-lg-3">
+            <div className="col-sm-12 col-md-3 col-lg-3 mt-3 px-3">
             <a href="/products/pet-performs">
-                <div className="featured-block fblock-style1">
-                <div className="featured-block-image">
-                    <img className src="/images/pet-preforms.jpg" />
-                    <div className="featured-block-overlay">
-                    <div className="featured-block-overlay-bg secondary-bg" />
-                    <h3 className="featured-block-title " style={{fontSize: '2rem'}}>Pet Preforms</h3>
-                    </div>
-                </div>
+                <div className="card card-1">
+                <img style={{width:'100%'}} src="/images/pet-preforms.jpg" />
+                <h1 className="text-center mt-3 mb-3" style={{fontSize:'22px'}}>PET Preforms</h1>
                 </div>
                 </a>
             </div>
-            <div className="col-sm-12 col-md-3 col-lg-3">
+            <div className="col-sm-12 col-md-3 col-lg-3 mt-3 px-3">
             <a href="/plastic-caps">
-                <div className="featured-block fblock-style1">
-                <div className="featured-block-image">
-                    <img className src="/images/plastic-caps-closures.jpg" />
-                    <div className="featured-block-overlay">
-                    <div className="featured-block-overlay-bg secondary-bg" />
-                    <h3 className="featured-block-title " style={{fontSize: '2rem'}}>Plastic Caps &amp; Closures</h3>
-                    </div>
-                </div>
+                <div className="card card-1">
+                <img style={{width:'100%'}} src="/images/plastic-caps-closures.jpg" />
+                <h1 className="text-center mt-3 mb-3" style={{fontSize:'22px'}}>Plastic Caps &amp; Closures</h1>
                 </div>
                 </a>
             </div>
-            <div className="col-sm-12 col-md-3 col-lg-3">
+            <div className="col-sm-12 col-md-3 col-lg-3 mt-3 px-3">
             <a href="/products/plastic-pumps">
-                <div className="featured-block fblock-style1">
-                <div className="featured-block-image">
-                    <img className src="/images/plastic-pumps.jpg" />
-                    <div className="featured-block-overlay">
-                    <div className="featured-block-overlay-bg secondary-bg" />
-                    <h3 className="featured-block-title " style={{fontSize: '2rem'}}>Plastic Pumps</h3>
-                    </div>
-                </div>
+                <div className="card card-1">
+                <img style={{width:'100%'}} src="/images/plastic-pumps.jpg" />
+                <h1 className="text-center mt-3 mb-3" style={{fontSize:'22px'}}>Plastic Pumps</h1>
                 </div>
                 </a>
-            </div>         
+            </div>
+           
             </div>
         </div>
         </section>

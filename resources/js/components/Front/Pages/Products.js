@@ -90,7 +90,7 @@ class Products extends Component {
     {/*-- ========================
        page title 
     =========================== */}
-    <section class="page-title page-title-layout7 bg-overlay bg-overlay-2 bg-parallax text-center">
+    <section class="page-title page-title-layout7 bg-overlay bg-overlay-2 bg-parallax text-center" style={{height:'350px'}}>
       <div class="bg-img"><img src="assets/images/page-titles/9.jpg" alt="background"/></div>
       <div class="container">
         <div class="row align-items-center">

@@ -4,14 +4,14 @@ export default class Footer extends Component {
     return (
      <footer class="footer">
      <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." className="float" target="_blank">
-        <i className="fa fa-whatsapp my-float"></i>
+     <img className="mt-1 ml-1" src="https://img.icons8.com/ios/36/ffffff/whatsapp--v1.png"/>
         </a>
       <div class="footer-top">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-3 col-xl-4 footer__widget footer__widget-about">
               <div class="footer__widget-content">
-                <img src="assets/images/logo/logo-footer.png" alt="logo" class="mb-30"/>
+                <img src="/assets/images/logo/logo-footer.png" alt="logo" class="mb-30"/>
                 <p class="mb-20" style={{color:"white"}}>M/S GRACE IMPEX SMC Pvt Ltd. was established in 1998 with an main aim of producing P.E.T. Bottles to be used for packaging purposes.</p>
                 <ul class="social__icons list-unstyled">
                   <li><a href="#"><i class="fab fa-facebook"></i></a></li>
