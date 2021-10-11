@@ -36,7 +36,7 @@ class ProductsPage extends Component {
                 <div class="container">
                     <div class="row align-items-center">
                     <div class="col-sm-12 col-md-12 col-lg-12">
-                        <h1 class="pagetitle__heading mb-0">{this.state.CategoryName}</h1>
+                        <h1 class="pagetitle__heading mb-0" style={{paddingTop:'150px'}}>{this.state.CategoryName}</h1>
                     </div>{/*-- /.col-xl-6 */}
                     </div>{/*-- /.row */}
                 </div>{/*-- /.container */}
