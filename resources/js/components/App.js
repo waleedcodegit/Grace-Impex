@@ -22,6 +22,7 @@ import Clients from './Front/Pages/Clients'
 import PetBottels from './Front/LandingComponents/PetBottels';
 import PlasticCaps from './Front/LandingComponents/PlasticCaps';
 import ProductsPage from './Front/Products/ProductsPage';
+import ecatalogue from './Front/Pages/ecatalogue';
 function App(props) {
   return (
     <BrowserRouter  >
@@ -48,6 +49,7 @@ function App(props) {
           <Route  exact path="/pet-bottels"  component={PetBottels}/>
           <Route  exact path="/plastic-caps"  component={PlasticCaps}/>
           <Route  exact path="/products/:slug"  component={ProductsPage}/>
+          <Route  exact path="/ecatalogue"  component={ecatalogue}/>
 
         </Switch> 
       </div>

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Nav from '../NavBar'
-import Footer from '../LandingComponents/Footer'
+import Nav from '../NavBar';
+import Footer from '../LandingComponents/Footer';
 class Clients extends Component {
     render() {
         return (

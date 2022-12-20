@@ -30,21 +30,21 @@ class Slider extends Component {
 
         <Carousel autoplay >
         <div>
-            <img src="/images/s1.jpg" alt="slide img"/>
+            <img src="/images/banner1.jpg" alt="slide img"/>
 
             </div>
             <div>
-            <img src="/images/s2.jpg" alt="slide img"/>
+            <img src="/images/banner2.jpg" alt="slide img"/>
             </div>
             <div>
-            <img src="/images/s3.jpg" alt="slide img"/>
+            <img src="/images/banner3.jpg" alt="slide img"/>
             </div>
-            <div>
+            {/* <div>
             <img src="/images/s4.jpg" alt="slide img"/>
             </div>
             <div>
             <img src="/images/s5.jpg" alt="slide img"/>
-            </div>
+            </div> */}
         </Carousel>
             </div>
            

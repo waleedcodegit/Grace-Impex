@@ -2,8 +2,9 @@ import React, { Component } from "react";
 export default class Footer extends Component {
   render() {
     return (
+      // Hi%21%20There%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202.
      <footer class="footer">
-     <a href="https://api.whatsapp.com/send?phone=51955081075&text=Hola%21%20Quisiera%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Varela%202." className="float" target="_blank">
+     <a href="https://api.whatsapp.com/send?phone=923173171414&text=Hi There! How we can help you?" className="float" target="_blank">
      <img className="mt-1 ml-1" src="https://img.icons8.com/ios/36/ffffff/whatsapp--v1.png"/>
         </a>
       <div class="footer-top">
@@ -14,10 +15,7 @@ export default class Footer extends Component {
                 <img src="/assets/images/logo/logo-footer.png" alt="logo" class="mb-30"/>
                 <p class="mb-20" style={{color:"white"}}>M/S GRACE IMPEX SMC Pvt Ltd. was established in 1998 with an main aim of producing P.E.T. Bottles to be used for packaging purposes.</p>
                 <ul class="social__icons list-unstyled">
-                  <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                  <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="https://www.facebook.com/GRACEIMPEX800?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a></li>
                 </ul>
               </div>
             </div>
@@ -26,9 +24,9 @@ export default class Footer extends Component {
               <div class="footer__widget-content">
                 <nav>
                   <ul class="list-unstyled">
-                    <li><a href="#">P.E.T. Bottles</a></li>
+                    <li><a href="/pet-bottels">P.E.T. Bottles</a></li>
                     <li><a href="#">Containers</a></li>
-                    <li><a href="#">Caps for P.E.T. Bottles</a></li>
+                    <li><a href="/plastic-caps">Caps for P.E.T. Bottles</a></li>
                     <li><a href="#">Measuring Cups</a></li>
                     <li><a href="#">Stopper Seals</a></li>
                   </ul>
@@ -40,12 +38,12 @@ export default class Footer extends Component {
               <div class="footer__widget-content">
                 <nav>
                   <ul class="list-unstyled">
-                    <li><a href="about-us.html">About Us</a></li>
-                    <li><a href="leadership-team.html">Meet Our Team</a></li>
-                    <li><a href="blog.html">News & Media</a></li>
-                    <li><a href="projects-grid.html">Products</a></li>
-                    <li><a href="contacs.html">Contacts</a></li>
-                    <li><a href="careers.html">Careers</a></li>
+                    <li><a href="/Aboutus">About Us</a></li>
+                    <li><a href="#">Meet Our Team</a></li>
+                    <li><a href="/blogs">Blogs</a></li>
+                    <li><a href="/products">Products</a></li>
+                    <li><a href="/Contactus">Contacts</a></li>
+                    {/* <li><a href="careers.html">Careers</a></li> */}
                   </ul>
                 </nav>
               </div>
@@ -79,8 +77,8 @@ export default class Footer extends Component {
                   <li><a href="#">Sitemap</a></li>
                 </ul>--> */}
               </nav>
-              <p class="mb-0 color-white"> © 2020 Grace Impex. Powered by
-                <a href="https://www.wangardinternational.com/" target="_blank">wangard international</a>
+              <p class="mb-0 color-white"> © 2020 Grace Impex. Powered by - 
+                <a href="https://www.wangardinternational.com/" target="_blank"> wangard international</a>
               </p>
             </div>
           </div>
