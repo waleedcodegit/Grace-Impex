@@ -26,7 +26,7 @@ class ecatalogue extends Component {
                         <div className="container-fluid col-padding-0">
                             <div className="row col-sm-12">
                                 <div className="col-md-4 col-lg-3 px-3">
-                                    <a href="https://drive.google.com/file/d/1mkVJOEq8QP4B9Mqjhfqnup3rzK_00zAr/preview" target='blank'>
+                                    <a href="https://www.grace-impex.com/pdf/grace-min.pdf" target='blank'>
                                         <div className="card card-1">
                                             <img style={{ width: '100%' }} src="/images/master_catalogue.jpg" />
                                             <h1 className="text-center mt-3 mb-3" style={{ fontSize: '20px' }}>View Master Catalogue</h1>
@@ -34,7 +34,7 @@ class ecatalogue extends Component {
                                     </a>
                                 </div>
                                 <div className=" col-md-4 col-lg-3 px-3">
-                                    <a href="https://drive.google.com/file/d/1mkVJOEq8QP4B9Mqjhfqnup3rzK_00zAr/preview" target='blank'>
+                                    <a href="https://www.grace-impex.com/pdf/FMCG.pdf" target='blank'>
                                         <div className="card card-1">
                                             <img style={{ width: '100%' }} src="/images/FMCG_Cat.jpg" />
                                             <h1 className="text-center mt-3 mb-3" style={{ fontSize: '20px' }}>View FMCG Catalogue</h1>
@@ -42,7 +42,7 @@ class ecatalogue extends Component {
                                     </a>
                                 </div>
                                 <div className=" col-md-4 col-lg-3 px-3">
-                                    <a href="https://drive.google.com/file/d/1mkVJOEq8QP4B9Mqjhfqnup3rzK_00zAr/preview" target='blank'>
+                                    <a href="https://www.grace-impex.com/pdf/Food.pdf" target='blank'>
                                         <div className="card card-1">
                                             <img style={{ width: '100%' }} src="/images/Food_Cat.jpg" />
                                             <h1 className="text-center mt-3 mb-3" style={{ fontSize: '20px' }}>View Food Catalogue</h1>
