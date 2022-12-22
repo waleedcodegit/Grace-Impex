@@ -92,10 +92,10 @@ class ContactUs extends Component {
               <li class="nav__item with-dropdown">
                 <a href="Clients" class="dropdown-toggle nav__item-link">Clients</a></li>
               <li class="nav__item with-dropdown">
-                <a href="/blogs" class="dropdown-toggle nav__item-link">News &amp; Media</a></li>
-              <li class="nav__item">
+                <a href="/ecatalogue" class="dropdown-toggle nav__item-link">E-Catalogue</a></li>
+              {/* <li class="nav__item">
                 <a href="/enquiry" class="nav__item-link">Enquiry</a>
-              </li>
+              </li> */}
               <li class="nav__item">
                 <a href="/Contactus" class="nav__item-link active">Contact</a>
               </li>
@@ -107,7 +107,7 @@ class ContactUs extends Component {
           </ul>
         </div>
       </nav>
-    </header>{/*-- /.Header -*/}
+    </header>
 
     {/*-- ========================= 
             Google Map
@@ -129,7 +129,7 @@ class ContactUs extends Component {
                   <div class="contact-info-box">
                     <h4 class="contact__info-box-title">Our Location</h4>
                     <ul class="contact__info-list list-unstyled">
-                      <li>123/1-A, Main Quaid-e-Azam Industrial Estate Quaid e Azam Industrial Estate, Lahore, Punjab 54770</li>
+                      <li>Plot No. 123/1-A, Main Quaid-e-Azam Industrial Estate, Township, Lahore, Punjab - Pakistan - 54770</li>
                     </ul>{/*-- /.contact__info-list -*/}
                   </div>{/*-- /.contact-info-box -*/}
                   <div class="contact-info-box">
@@ -141,10 +141,10 @@ class ContactUs extends Component {
                 </div>{/*-- /.contact__panel-info-top -*/}
                 <div class="contact__panel-info-bottom">
                   <strong class="contact__panel-info-title">We will get back to you within 24 hours, or call us
-                    everyday, 09:00 AM - 06:00 PM</strong>
+                    everyday, <br/>09:00 AM - 05:00 PM</strong>
                   <div class="contact__number d-flex align-items-center">
                     <i class="icon-phone"></i>
-                    <a style={{fontSize:'16px',fontWeight:500,lineHeight:1.5}} href="tel:++92 321 8581212">+92 321 8581212 <br/> +92 321 8581414</a> 
+                    <a style={{fontSize:'16px',fontWeight:500,lineHeight:1.5}} href="tel:++92 321 8581212">+92 321 8581212</a> 
                     {/* <a href="tel:++92 321 8581414">++92 321 8581414</a> */}
                   </div>
                 </div>{/*-- /.contact__panel-info-bottom -*/}
@@ -181,7 +181,7 @@ class ContactUs extends Component {
                   </div>{/*-- /.col-lg-6 -*/}
                   <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="form-group">
-                     	<textarea onChange={this.msg.bind(this)} class="form-control" placeholder="Additional Details!" placeholder="Message"
+                     	<textarea onChange={this.msg.bind(this)} class="form-control" placeholder="Additional Details!"
                         id="contact-messgae" name="contact-messgae" required></textarea>
                     </div>
                   </div>{/*-- /.col-lg-12 -*/}

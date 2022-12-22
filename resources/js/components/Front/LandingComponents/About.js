@@ -29,7 +29,7 @@ export default class About extends Component {
               <img src="assets/images/about/2.png" alt="about" class="img-fluid w-100"/>            
             </div>
             <div class="video__box">
-              <a class="video__btn video__btn-white popup-video" href="https://www.youtube.com/watch?v=nrJtHemSPW4">
+              <a class="video__btn video__btn-white" href="https://www.youtube.com/channel/UC_6_YxiiERO5SwDTDVFxqVA" target="blank">
                 <div class="video__player">
                   <span class="video__player-animation"></span>
                   <span class="video__player-animation video__player-animation-2"></span>

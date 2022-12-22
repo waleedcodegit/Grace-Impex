@@ -15,7 +15,9 @@ export default class Footer extends Component {
                 <img src="/assets/images/logo/logo-footer.png" alt="logo" class="mb-30"/>
                 <p class="mb-20" style={{color:"white"}}>M/S GRACE IMPEX SMC Pvt Ltd. was established in 1998 with an main aim of producing P.E.T. Bottles to be used for packaging purposes.</p>
                 <ul class="social__icons list-unstyled">
-                  <li><a href="https://www.facebook.com/GRACEIMPEX800?mibextid=ZbWKwL"><i class="fab fa-facebook"></i></a></li>
+                  <li><a href="https://www.facebook.com/GRACEIMPEX800?mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/grace-impex-smc-pvt-limited-bb962625b/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                  <li><a href="https://www.youtube.com/channel/UC_6_YxiiERO5SwDTDVFxqVA" target="_blank"><i class="fab fa-youtube"></i></a></li>
                 </ul>
               </div>
             </div>

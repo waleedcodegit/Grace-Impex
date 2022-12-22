@@ -75,7 +75,7 @@ export default class Contactlayout extends Component {
                       <strong class="contact__panel-info-title">We will get back to you within 24 hours, or call us everyday, 09:00 AM - 12:00 PM</strong>
                       <div class="contact__number d-flex align-items-center">
                         <i class="icon-phone"></i>
-                        <a href="tel:+92 42 35121974">+92 317 3171414</a>
+                        <a href="tel:+92 317 317 1414">+92 317 317 1414</a>
                       </div>
                     </div>
                   </div>
