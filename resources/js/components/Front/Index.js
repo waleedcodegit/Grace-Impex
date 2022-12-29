@@ -67,7 +67,7 @@ class Index extends Component {
                       <ul class="contact__list list-unstyled mb-0 d-flex flex-wrap">
                         <li>
                           <i class="icon-phone"></i><span>Phone:</span>
-                          <a href="tel:+92 317 317 1414">+92 317 317 1414</a>
+                          <a href="tel:+92 317 317 1414">+92 321 858 1212</a>
                         </li>
                         <li>
                           <i class="icon-envelope"></i><span>Email:</span>
@@ -75,7 +75,7 @@ class Index extends Component {
                         </li>
                         <li><a href="https://www.facebook.com/GRACEIMPEX800?mibextid=ZbWKwL" target='_blank'><i class="fa fa-facebook-official fa-lg"></i></a></li>
                         <li><a href="https://www.linkedin.com/in/grace-impex-smc-pvt-limited-bb962625b/" target='_blank'><i class="fa fa-linkedin-square fa-lg"></i></a></li>
-                        <li><a href="https://www.youtube.com/channel/UC_6_YxiiERO5SwDTDVFxqVA" target='_blank'><i class="fa fa-youtube-square fa-lg"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UC_6_YxiiERO5SwDTDVFxqVA" target='_blank'><i class="fa fa-youtube-play fa-lg"></i></a></li>
 
                       </ul>
                     </div>

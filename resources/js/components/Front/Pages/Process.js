@@ -18,8 +18,8 @@ class Process extends Component {
     {/*-- ========================
        page title 
     =========================== */}
-    <section class="page-title page-title-layout1 bg-overlay bg-overlay-3 bg-parallax text-center">
-      <div class="bg-img"><img src="assets/images/page-titles/4.jpg" alt="background"/></div>
+    {/* <section class="page-title page-title-layout1 bg-overlay bg-overlay-3 bg-parallax text-center">
+      <div class="bg-img"><img src="assets/images/page-titles/page_title_new.jpg" alt="background"/></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 offset-xl-3">
@@ -30,10 +30,20 @@ class Process extends Component {
                 <li class="breadcrumb-item active" aria-current="page">Process</li>
               </ol>
             </nav>
-          </div>{/*-- /.col-xl-6 */}
-        </div>{/*-- /.row */}
-      </div>{/*-- /.container */}
-    </section>{/*-- /.page-title */}
+          </div>
+        </div>
+      </div>
+    </section> */}
+    <section class="page-title page-title-layout7 bg-overlay bg-overlay-2 bg-parallax text-center" style={{ height: '350px' }}>
+                        <div class="bg-img" ><img src="assets/images/page-titles/page_title_new.jpg" alt="background" /></div>
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-sm-12 col-md-12 col-lg-12">
+                                    <h1 class="pagetitle__heading mb-0">Process</h1>
+                                </div>{/*-- /.col-xl-6 */}
+                            </div>{/*-- /.row */}
+                        </div>{/*-- /.container */}
+                    </section>
 
     {/*-- =========================
       fancybox-layout1 

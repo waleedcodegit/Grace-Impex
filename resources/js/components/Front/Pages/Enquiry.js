@@ -76,7 +76,7 @@ class Enquiry extends Component {
        page title 
     =========================== */}
     <section class="page-title page-title-layout1 bg-overlay bg-overlay-2 bg-parallax">
-      <div class="bg-img"><img src="assets/images/page-titles/11.jpg" alt="background"/></div>
+      <div class="bg-img"><img src="assets/images/page-titles/page_title_new.jpg" alt="background"/></div>
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6">
@@ -132,7 +132,7 @@ class Enquiry extends Component {
                   </div>{/*-- /.col-lg-6 -*/}
                   <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="form-group">
-                     	<textarea onChange={this.msg.bind(this)} class="form-control" placeholder="Additional Details!" placeholder="Message"
+                     	<textarea onChange={this.msg.bind(this)} class="form-control" placeholder="Additional Details!"
                         id="contact-messgae" name="contact-messgae" required></textarea>
                     </div>
                   </div>{/*-- /.col-lg-12 -*/}

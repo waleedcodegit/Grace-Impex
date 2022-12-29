@@ -28,7 +28,7 @@ class Slider extends Component {
            
         </Carousel> */}
 
-        <Carousel autoplay >
+        <Carousel autoplay={5000}>
         <div>
             <img src="/images/banner1.jpg" alt="slide img"/>
 

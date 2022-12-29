@@ -73,9 +73,11 @@ export default class Contactlayout extends Component {
                   <div class="col-sm-12 col-md-5 col-lg-5">
                     <div class="contact__panel-info">
                       <strong class="contact__panel-info-title">We will get back to you within 24 hours, or call us everyday, 09:00 AM - 12:00 PM</strong>
+                      <div class="contact__number d-flex align-items-center mb-1">
+                        <i class="icon-phone"></i><a href="tel:+92 321 858 1212">+92 321 858 1212</a>
+                      </div>
                       <div class="contact__number d-flex align-items-center">
-                        <i class="icon-phone"></i>
-                        <a href="tel:+92 317 317 1414">+92 317 317 1414</a>
+                        <i class="fa fa-whatsapp"></i><a href="tel:+92 317 317 1414">+92 317 317  1414</a>
                       </div>
                     </div>
                   </div>

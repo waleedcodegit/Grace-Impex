@@ -27,10 +27,10 @@ export default class Footer extends Component {
                 <nav>
                   <ul class="list-unstyled">
                     <li><a href="/pet-bottels">P.E.T. Bottles</a></li>
-                    <li><a href="#">Containers</a></li>
+                    <li><a href="/products">Containers</a></li>
                     <li><a href="/plastic-caps">Caps for P.E.T. Bottles</a></li>
-                    <li><a href="#">Measuring Cups</a></li>
-                    <li><a href="#">Stopper Seals</a></li>
+                    <li><a href="/products">Measuring Cups</a></li>
+                    <li><a href="/products">Stopper Seals</a></li>
                   </ul>
                 </nav>
               </div>
@@ -41,7 +41,7 @@ export default class Footer extends Component {
                 <nav>
                   <ul class="list-unstyled">
                     <li><a href="/Aboutus">About Us</a></li>
-                    <li><a href="#">Meet Our Team</a></li>
+                    <li><a href="/Aboutus">Meet Our Team</a></li>
                     <li><a href="/blogs">Blogs</a></li>
                     <li><a href="/products">Products</a></li>
                     <li><a href="/Contactus">Contacts</a></li>
