@@ -32,7 +32,7 @@ class NavBar extends Component {
               </li> */}
               {/* -- /.nav-item -*/}
               <li class="nav__item">
-                <a href="/Contactus" class="nav__item-link">Contact</a>
+                <a href="/exhibits" class="nav__item-link">Exhibits</a>
               </li>{/* -- /.nav-item -*/}
             </ul>{/* -- /.navbar-nav -*/}
           </div>{/* -- /.navbar-collapse -*/}

@@ -24,6 +24,8 @@ import PlasticCaps from './Front/LandingComponents/PlasticCaps';
 import ProductsPage from './Front/Products/ProductsPage';
 import ecatalogue from './Front/Pages/ecatalogue';
 import newclients from './Front/Pages/newclients';
+import exhibits from './Front/Pages/exhibits';
+import exhibits_ from './Front/Pages/exhibits_';
 function App(props) {
   return (
     <BrowserRouter  >
@@ -52,6 +54,9 @@ function App(props) {
           <Route  exact path="/products/:slug"  component={ProductsPage}/>
           <Route  exact path="/ecatalogue"  component={ecatalogue}/>
           <Route exact path="/newclients" component={newclients}/>
+          <Route exact path="/exhibits" component={exhibits}/>
+          <Route exact path="/exhibits_" component={exhibits_}/>
+
 
         </Switch> 
       </div>

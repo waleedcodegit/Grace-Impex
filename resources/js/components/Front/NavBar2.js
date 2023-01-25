@@ -63,7 +63,7 @@ class NavBar extends Component {
                 
                 { /* /.nav-item */}
               <li class="nav__item">
-                <a href="/Contactus" class="nav__item-link">Contact</a>              </li>{ /* /.nav-item */}
+                <a href="/exhibits" class="nav__item-link">Exhibits</a>              </li>{ /* /.nav-item */}
             </ul>{ /* /.navbar-nav */}
           </div>{ /* /.navbar-collapse */}
           <ul class="actions__list list-unstyled d-flex align-items-center mb-0 ml-30">

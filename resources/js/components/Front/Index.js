@@ -66,6 +66,10 @@ class Index extends Component {
                       </ul>
                       <ul class="contact__list list-unstyled mb-0 d-flex flex-wrap">
                         <li>
+                          <i class="fa fa-whatsapp fa-lg"></i><span>Whatsapp:</span>
+                          <a href="https://api.whatsapp.com/send?phone=923173171414&text=Hi There! How we can help you?">+92 317 317 1414</a>
+                        </li>
+                        <li>
                           <i class="icon-phone"></i><span>Phone:</span>
                           <a href="tel:+92 317 317 1414">+92 321 858 1212</a>
                         </li>
@@ -113,7 +117,7 @@ class Index extends Component {
 
                     { /* /.nav-item */}
                     <li class="nav__item">
-                      <a href="/Contactus" class="nav__item-link">Contact</a>              </li>{ /* /.nav-item */}
+                      <a href="/exhibits" class="nav__item-link">Exhibits</a>              </li>{ /* /.nav-item */}
                   </ul>{ /* /.navbar-nav */}
                 </div>{ /* /.navbar-collapse */}
                 <ul class="actions__list list-unstyled d-flex align-items-center mb-0 ml-30">
