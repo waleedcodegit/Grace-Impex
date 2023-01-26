@@ -78,6 +78,36 @@ class exhibits_ extends Component {
                             <div className="row col-sm-12">
                                 <div className=" col-md-4 col-lg-4 px-3">
                                         <div className="card card-1">
+                                            <img style={{ width: '100%' }} src="assets/images/exhibits/12.jpg" />
+                                        </div>
+                                </div>
+                                <div className=" col-md-4 col-lg-4 px-3">
+                                        <div className="card card-1">
+                                            <img style={{ width: '100%' }} src="assets/images/exhibits/13.jpg" />
+                                        </div>
+                                </div>
+                                <div className=" col-md-4 col-lg-4 px-3">
+                                        <div className="card card-1">
+                                            <img style={{ width: '100%' }} src="assets/images/exhibits/14.jpg" />
+                                        </div>
+                                </div>
+                            </div>
+                            <div className="row col-sm-12">
+                                <div className=" col-md-4 col-lg-4 px-3">
+                                        <div className="card card-1">
+                                            <img style={{ width: '100%' }} src="assets/images/exhibits/15.jpg" />
+                                        </div>
+                                </div>
+                                <div className=" col-md-4 col-lg-4 px-3">
+                                        <div className="card card-1">
+                                            <img style={{ width: '100%' }} src="assets/images/exhibits/16.jpg" />
+                                        </div>
+                                </div>
+                                
+                            </div>
+                            <div className="row col-sm-12">
+                                <div className=" col-md-4 col-lg-4 px-3">
+                                        <div className="card card-1">
                                             <img style={{ width: '100%' }} src="assets/images/exhibits/4.jpg" />
                                         </div>
                                 </div>

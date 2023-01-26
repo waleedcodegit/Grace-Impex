@@ -45,7 +45,7 @@ class exhibits extends Component {
                                             </div>  
                                             {/* -- /.blog-meta-cat */}
                                         </div>{/*-- /.blog-meta */}
-                                        <h4 class="blog__title"><a href="#">GRACE IMPEX (SMC-PVT) LIMITED & HONGZHEN MACHINE & MOLD GROUP, CHINA</a></h4>
+                                        <h4 class="blog__title">GRACE IMPEX (SMC-PVT) LIMITED & HONGZHEN MACHINE & MOLD GROUP, CHINA</h4>
                                         {/* <p class="blog__desc">The trade war currently ensuing between the US and several nations around the
                                             globe, most fiercely with China, shows no signs of the first set of tariffs levied against solar...
                                         </p> */}
