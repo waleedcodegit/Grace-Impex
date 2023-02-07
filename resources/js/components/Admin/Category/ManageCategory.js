@@ -71,10 +71,11 @@ class AddCategory extends Component {
 
     });
    }
-   upcategory(id,name){
+   upcategory(id,name,slug){
        let senderdata = {
            id:id,
-           name:name
+           name:name,
+           slug:slug
        }
 
        Axios.post(baseurl+'/api/update_category',senderdata).then(res=>{
@@ -124,7 +125,7 @@ class AddCategory extends Component {
                                                 <td>{index+1}</td>
                                                 <td>{data.id}</td>
                                                 <td><input onChange={(e)=>{this.onchange_category(e.target.value,data.id)}} className="form-control" value={data.name}></input></td>
-                                                <td><button onClick={this.upcategory.bind(this,data.id,data.name)} className="btn btn-warning">Update</button></td>
+                                                <td><button onClick={this.upcategory.bind(this,data.id,data.name,data.slug)} className="btn btn-warning">Update</button></td>
                                                 <td><button className="btn btn-light" onClick={this.DeleteCategory.bind(this,data.id,index)}> <i  style={{color:'red'}}  className="fas fa-trash-alt"></i>
                                                         </button></td>
                                             </tr>

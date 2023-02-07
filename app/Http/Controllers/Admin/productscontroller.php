@@ -288,12 +288,14 @@ class productscontroller extends Controller
     public function addcategory(Request $request){
         $new_cat = new Category();
         $new_cat->name = $request->name;
+        $new_cat->slug = str_slug($request->name);
         $new_cat->save();
     }
 
     public function update_category(Request $request){
         $up_cat = Category::find($request->id);
         $up_cat->name = $request->name;
+        $up_cat->slug = str_slug($request->name);
         $up_cat->save();
     }
 

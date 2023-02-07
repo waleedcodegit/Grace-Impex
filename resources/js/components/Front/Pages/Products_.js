@@ -95,10 +95,10 @@ class Products extends Component {
         <div class="row align-items-center">
           <div class="col-sm-12 col-md-12 col-lg-12">
             <h1 class="pagetitle__heading mb-0">Products</h1>
-          </div>{/*-- /.col-xl-6 */}
-        </div>{/*-- /.row */}
-      </div>{/*-- /.container */}
-    </section>{/*-- /.page-title */}
+          </div>
+        </div>
+      </div>
+    </section>
 
     {/*-- =========================== 
       portfolio Grid 

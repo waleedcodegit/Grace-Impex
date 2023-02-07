@@ -343,7 +343,7 @@ class Addproduct extends Component {
                         </div>
 
                         <div className="form-group input_div col-md-4">
-                            <label for="img" className="input_label" for="exampleInputEmail1">Product Image</label>
+                            <label for="img" className="input_label" >Product Image</label>
                             <input  id="img" aria-describedby="emailHelp" onChange={this.handleFileChange.bind(this)} type="file"></input>
                         </div>
                         <div className="card container-fluid col-md-12">

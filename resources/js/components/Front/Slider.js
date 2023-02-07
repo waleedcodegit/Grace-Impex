@@ -30,14 +30,14 @@ class Slider extends Component {
 
         <Carousel autoplay={5000}>
         <div>
-            <img src="/images/banner6.jpg" alt="slide img"/>
+            <img src="/images/banner5.jpg" alt="slide img"/>
 
             </div>
             <div>
-            <img src="/images/banner5.jpg" alt="slide img"/>
+            <img src="/images/banner6.jpg" alt="slide img"/>
             </div>
             <div>
-            <img src="/images/banner3.jpg" alt="slide img"/>
+            <img src="/images/banner2.jpg" alt="slide img"/>
             </div>
             <div>
             <img src="/images/banner4.jpg" alt="slide img"/>
@@ -46,7 +46,7 @@ class Slider extends Component {
             <img src="/images/banner1.jpg" alt="slide img"/>
             </div>
             <div>
-            <img src="/images/banner2.jpg" alt="slide img"/>
+            <img src="/images/banner3.jpg" alt="slide img"/>
             </div>
             {/* <div>
             <img src="/images/s5.jpg" alt="slide img"/>
