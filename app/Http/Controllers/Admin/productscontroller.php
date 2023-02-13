@@ -34,7 +34,7 @@ class productscontroller extends Controller
             $new_product = new Product();
             $new_product->name = $request->p_name;
             $new_product->code = $request->p_code;
-            $new_product->description = $request->p_description;
+            $new_product->description = nl2br($request->p_description);
             $new_product->varient_type = $request->p_varient_type;
             $new_product->qty_type = $request->p_qnty_type;
             $new_product->cat_id = $request->p_cat_id;
@@ -138,6 +138,7 @@ class productscontroller extends Controller
         }
         $p->cheep_varient = $cheep_varient;
         }
+        $products->description = nl2br($products->description);
         return $products;
     }
     public function add_product_values(Request $request){
@@ -150,7 +151,7 @@ class productscontroller extends Controller
         $newValue->image = $name;
         $newValue->product_id = $request->id;
         $newValue->name = $request->name;
-        $newValue->description = $request->description;
+        $newValue->description = nl2br($request->description);
         $newValue->save();
     }
     public function get_product_values(Request $request){
@@ -274,7 +275,7 @@ class productscontroller extends Controller
         $new_product = Product::find($request->id);
         $new_product->name = $request->p_name;
         $new_product->code = $request->p_code;
-        $new_product->description = $request->p_description;
+        $new_product->description = nl2br($request->p_description);
         $new_product->varient_type = $request->p_varient_type;
         $new_product->qty_type = $request->p_qnty_type;
         $new_product->cat_id = $request->p_cat_id;

@@ -21,11 +21,12 @@ class ProductsPage extends Component {
                 products:res.data.products,
                 data:res.data,
                 CategoryName:res.data.category.name
-            })
+            }, ()=>{console.log(this.state.products)});
         })
         
         
     }
+
     render() {
        
         return (
@@ -66,10 +67,13 @@ class ProductsPage extends Component {
                                     return(
                                         <div key={index} className="col-sm-6 col-md-6 col-lg-4">
                                             <div className="portfolio-item">
-                                                <div className="portfolio__img">
+                                                <div className="portfolio__img card card-1">
                                                     <a className="popup-gallery-item" href={img_baseurl+data.image.image}>
                                                         <img src={img_baseurl+data.image.image} alt="portfolio img" />
                                                     </a>
+                                                    {/* <h1 className="text-center mt-3 mb-3" style={{fontSize:'22px'}}>{data.name}</h1> */}
+                                                    <span className="ml-3 mt-3 mb-3" style={{fontSize:'18px'}} dangerouslySetInnerHTML={{__html: data.description}}></span>
+                                                    
                                                 </div>
                                             </div>
                                         </div>

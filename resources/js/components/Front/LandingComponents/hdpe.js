@@ -54,7 +54,7 @@ class Hdpe extends Component {
         <div className="container col-padding-0">
             <div className="row" style={{alignItems:'center' , justifyContent: 'center'}}>
             <div className="col-sm-12 col-md-4 col-lg-4 px-3 mt-3" >
-            <a href="/products/agro-chemical">
+            <a href="/products/hdpe-agro">
                 <div className="card card-1">
                 <img style={{width:'100%'}} src="/images/sub-agro-chemical.jpg" />
                 <h1 className="text-center mt-3 mb-3" style={{fontSize:'22px'}}>Agro Chemical</h1>
@@ -62,7 +62,7 @@ class Hdpe extends Component {
                 </a>
             </div>
             <div className="col-sm-12 col-md-4 col-lg-4 px-3 mt-3" >
-            <a href="/products/househols-packaging">
+            <a href="/products/households-packaging">
                 <div className="card card-1">
                 <img style={{width:'100%'}} src="/images/sub-household-packaging.jpg" />
                 <h1 className="text-center mt-3 mb-3" style={{fontSize:'22px'}}>Household Packaging</h1>

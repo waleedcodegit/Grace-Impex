@@ -8,10 +8,10 @@ class Categories extends Component {
                     <h2 class="heading__title text-center mb-3">Our Range Of Products</h2>
                     <div className="row mt-5" style={{alignItems:'center' , justifyContent: 'center'}}>
                         <div className="col-sm-12 col-md-3 col-lg-3 mt-3 px-3">
-                            <a href="/hdpe">
+                            <a href="/products/pet-performs">
                                 <div className="card card-1">
-                                    <img style={{ width: '100%' }} src="/images/HDPE.jpg" />
-                                    <h1 className="text-center mt-3 mb-3" style={{ fontSize: '22px' }}>HDPE</h1>
+                                    <img style={{ width: '100%' }} src="/images/pet-preforms.jpg" />
+                                    <h1 className="text-center mt-3 mb-3" style={{ fontSize: '22px' }}>PET Preforms</h1>
                                 </div>
                             </a>
                         </div>
@@ -24,13 +24,14 @@ class Categories extends Component {
                             </a>
                         </div>
                         <div className="col-sm-12 col-md-3 col-lg-3 mt-3 px-3">
-                            <a href="/products/pet-performs">
+                            <a href="/hdpe">
                                 <div className="card card-1">
-                                    <img style={{ width: '100%' }} src="/images/pet-preforms.jpg" />
-                                    <h1 className="text-center mt-3 mb-3" style={{ fontSize: '22px' }}>PET Preforms</h1>
+                                    <img style={{ width: '100%' }} src="/images/hdpe-new.jpg" />
+                                    <h1 className="text-center mt-3 mb-3" style={{ fontSize: '22px' }}>HDPE</h1>
                                 </div>
                             </a>
                         </div>
+                        
                         
                     </div>
                     <div className="row mt-5" style={{alignItems:'center' , justifyContent: 'center'}}>
